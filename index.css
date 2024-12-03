@@ -1,0 +1,37 @@
+/* Mobile (375px and smaller) */
+@media (max-width: 375px) {
+
+}
+
+/* Desktop (1440px and larger) */
+@media (min-width: 1440px) {
+
+}
+
+.font {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(216, 15%, 48%);
+    display: grid;
+    place-items: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px;
+}
+
+.card {
+    width: 330px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
